@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>bringTheCartBack</name>
+	<displayName><![CDATA[Bring the Cart Back]]></displayName>
+	<version><![CDATA[0.1.0]]></version>
+	<description><![CDATA[This module allows you to send emails to identified clients who didn\'t finish the checkout process. This bring back a cart to a client through a reminder.]]></description>
+	<author><![CDATA[Traxlead]]></author>
+	<tab><![CDATA[emailing]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

@@ -1,0 +1,31 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{bringthecartback}prestashop>bringthecartback_a691f1211f5071e32ac8629692972af5'] = 'Relance des paniers';
+$_MODULE['<{bringthecartback}prestashop>bringthecartback_bd858d10e53c8987b07f2c110533ab51'] = 'Ce module permet d\'envoyer des e-mails aux clients identifiés n\'ayant pas terminé le processus de commande. Il relance le client via un e-mail l\'invitant à terminer sa commande';
+$_MODULE['<{bringthecartback}prestashop>bringthecartback_876f23178c29dc2552c0b48bf23cd9bd'] = 'Êtes-vous sûr de vouloir désinstaller ?';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_ce26601dac0dea138b7295f02b7620a7'] = 'Client';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_96b0141273eabab320119c467cdcaf17'] = 'Total';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_44749712dbec183e983dcd78a7736c41'] = 'Date';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_0c85a5d7dee22954ba5e87b63658b5c7'] = 'Date de relance';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_f4f70727dc34561dfde1a3c529b6205c'] = 'Paramètres';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_48f97fd3d254e9621954766c3f509435'] = 'Limite de relance';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_014950e7fa6c26f66a0fd185d770b858'] = 'Envoi d\'une relance pour le panier de moins de x jours.';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_58fd2b2308056ad80255a322b305742b'] = 'Nombre de jours';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_f0f4269e75f3122e67a7435e32394067'] = 'Intervalle de faux abandons';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_6341f2e11707743a2a34087be21929db'] = 'Permet l\'envoi d\'un e-mail de relance pour les paniers réellement abandonnés. PrestaShop considère parfois à tort qu\'un panier a été abandonné alors que le client à finalisé la commande. Cette option permet de vérifier si le client à fait une commande x heures avant et après l\'abandon.';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_bc0e637d3c418afec61235575d8502d2'] = '3 heures';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_f20768ab118dcd9e97d2455525f4d262'] = '6 heures';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_5b09719905cf1ac4d3ea41696ef510ca'] = '12 heures';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_2a525c9d768310a023ddd6d3ed2a84bf'] = '24 heures';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_7fcf3ba5caf8785b9ac5bf223c84b8cd'] = '48 heures';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_c1c1db91ea43d4864be53cde51922f60'] = '72 heures';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_c9cc8cce247e49bae79f15173ce97354'] = 'Enregistrer';
+$_MODULE['<{bringthecartback}prestashop>adminbringthecartback_c595d2957600891ad3063a9b13dda4b0'] = 'Panier #%06d';
+$_MODULE['<{bringthecartback}prestashop>cart_reminder_action_90de1456b6ce5e97c48cfc59afd0c681'] = 'Paniers éligibles à la relance';
+$_MODULE['<{bringthecartback}prestashop>cart_reminder_action_7defc0c025c4db7027f5e45ee3d48065'] = 'Ces %s derniers jours';
+$_MODULE['<{bringthecartback}prestashop>cart_reminder_action_80c54ba295cdfb3fc91798664ca76fa5'] = 'E-mail envoyés : ';
+$_MODULE['<{bringthecartback}prestashop>cart_reminder_action_39cdcbc9050b8f1320fe910a3073b93f'] = 'Pas d\'e-mail envoyé. Il n\'y avait pas de paniers pouvant être relancés : les relances ont déjà été envoyées ou les clients ont effectué un achat peu avant ou peu après avoir abandonné un panier.';
+$_MODULE['<{bringthecartback}prestashop>cart_reminder_action_e379b9d3f3caf74f9f69c4330660dd41'] = 'Lancer l\'envoi des relances';

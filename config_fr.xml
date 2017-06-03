@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>bringthecartback</name>
+	<displayName><![CDATA[Relance des paniers]]></displayName>
+	<version><![CDATA[0.1.0]]></version>
+	<description><![CDATA[Ce module permet d&#039;envoyer des e-mails aux clients identifi&eacute;s n&#039;ayant pas termin&eacute; le processus de commande. Il relance le client via un e-mail l&#039;invitant &agrave; terminer sa commande]]></description>
+	<author><![CDATA[Traxlead]]></author>
+	<tab><![CDATA[emailing]]></tab>
+	<confirmUninstall><![CDATA[Êtes-vous sûr de vouloir désinstaller ?]]></confirmUninstall>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
