@@ -386,7 +386,7 @@ class AdminBringTheCartBackController extends ModuleAdminController
 					'{firstname}' => $customer->firstname,
 					'{lastname}' => $customer->lastname
 				);
-				if (Mail::Send((int)$cart->id_lang, 'backoffice_order', Mail::l('Process the payment of your order', (int)$cart->id_lang), $mailVars, 'alban.gonzalez@traxlead.com', //$customer->email,
+				if (Mail::Send((int)$cart->id_lang, 'backoffice_order', Mail::l('Process the payment of your order', (int)$cart->id_lang), $mailVars, $customer->email,
 						$customer->firstname.' '.$customer->lastname, null, null, null, null, _PS_MAIL_DIR_, true, $cart->id_shop))
 				return true;
 			}
