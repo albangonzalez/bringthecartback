@@ -12,6 +12,8 @@ Après avoir installé le module depuis l'onglet **Modules et Services**, un nou
 
 ### Panneau Paramètres ###
 
+![Capture panneau des paramètres](docs/settings_panel.png "Panneau des paramètres")
+
 #### Limite de relance (Reminder Limit) ####
 Ce paramètre permet de spécifier quels paniers seront analysés depuis aujourd'hui jusqu'au nombre de jours indiqués. La relance sera faite pour les paniers ayant été abandonnés il y a moins de _x_ jours.
 
@@ -34,6 +36,8 @@ Dans ce cas il est judicieux d'adapter ce paramètre selon le comportement habit
 
 ### Panneau Statistiques et lancement des relances ###
 
+![Capture panneau statistiques et lancement des relances](docs/analytics_action.png "Panneau Statistiques et lancement des relances")
+
 #### Paniers éligibles à la relance ####
 Cette section affiche les paniers éligibles à la relance sur les x jours spécifiés dans le paramètre Limite de relance. Il n'indique pas nécessairement que tout ces paniers seront relancés. Pour qu'ils le soient il devront satisfaire à la règle **Intervalle de faux abandon**.
 
@@ -44,7 +48,14 @@ spécifiés plus haut.
 Après avoir actionné ce bouton et que le processus de relance sera terminé, des
 informations concernant le nombre de mails envoyés est affiché.
 
+![Capture panneau après envoi relances](docs/analytics_action_reminders_sent.png "Relances envoyées")
+
+![Capture panneau après lancement relance sans envoi ](docs/analytics_action_no_reminders_sent.png "Relances non envoyées")
+
 #### Liste Relance des paniers ####
+
+![Capture liste paniers abandonnés récupérables ](docs/list_reminders.png "Liste des paniers récupérables et relances envoyées")
+
 Ce tableau représente la liste des paniers abandonnés et dont les utilisateurs
 ont été authentifiés. Autrement dit, il s'agit des paniers potentiellement
 récupérables avec une relance. Il peut y avoir des doublons dans la même journée
