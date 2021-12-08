@@ -17,9 +17,9 @@ Après avoir installé le module depuis l'onglet **Modules et Services**, un nou
 #### Limite de relance (Reminder Limit) ####
 Ce paramètre permet de spécifier quels paniers seront analysés depuis aujourd'hui jusqu'au nombre de jours indiqués. La relance sera faite pour les paniers ayant été abandonnés il y a moins de _x_ jours.
 
-Si vous indiquez 14 jours, les paniers de moins de 14 jours seront analysés. S'ils vérifient la condition du paramètre suivant : l'**Intervalle de faux abandon** (False Abandonned Cart Limit) alors une relance sera envoyée.
+Si vous indiquez 14 jours, les paniers de moins de 14 jours seront analysés. S'ils vérifient la condition du paramètre suivant : l'**Intervalle de faux abandon** (False Abandoned Cart Limit) alors une relance sera envoyée.
 
-#### Intervalle de faux abandon (False Abandonned Cart Limit) ####
+#### Intervalle de faux abandon (False Abandoned Cart Limit) ####
 Ce paramètre permet de vérifier que le client n'a pas fait de commande dans
 l'intervalle spécifié (avant et après). Cela évite de lui envoyer un mail de relance alors qu'il a finalement commandé chez vous avant ou après avoir abandonné le panier.
 
